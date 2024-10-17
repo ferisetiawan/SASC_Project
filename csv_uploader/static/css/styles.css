@@ -9,10 +9,6 @@ body {
     padding: 20px;
 }
 
-#main-card {
-    padding: 20px;
-}
-
 .card-title {
     color: #4e73df; /* Primary color */
     font-weight: bold;
@@ -34,8 +30,8 @@ body {
 }
 
 .btn-secondary:hover {
-    background-color: #6c757d;
-    border-color: #6c757d;
+    background-color: #5a6268;
+    border-color: #545b62;
 }
 
 #dataFrameContainer .table-responsive {
@@ -57,4 +53,8 @@ th, td {
 th {
     background-color: #4e73df; /* Primary color */
     color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
